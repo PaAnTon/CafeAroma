@@ -1,0 +1,156 @@
+<!DocTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Everything about Cafe Aroma, locations, business times and a whole lot of pun!" />
+    <meta name="keywords" content="cafe aroma, cafe, aroma, brisbane, gold coast, melbourne, sydney, perth, the best, cafe, best cafe" />
+    <title>Feedback - Cafe Aroma</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="aromacafe.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="aromaprint.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if lt IE 9]>
+      <script src="scripts/semantic.js"></script>
+      <link rel="stylesheet" type="text/css" href="aroma.css">
+    <![endif]-->
+    <script src="scripts/modernizr-1.6.min.js"></script>
+	<script src="scripts/formScript.js"></script>
+  </head>
+  <body>
+    <div id="boxlogo">
+      <img src="images/cafelogo.jpg" width="700" height="100" alt="Cafe Aroma" />
+      <div id="mainnav">
+        <a href="home.html">HOME</a> <span class="line">|</span>
+        <a href="about.html">ABOUT US</a> <span class="line">|</span>
+        <a href="location.html">LOCATION</a> <span class="line">|</span>
+        <a href="products.html">PRODUCTS</a> <span class="line">|</span>
+        <a href="feedback.html">FEEDBACK</a>
+      </div>
+    </div>
+    <div class="box">
+      <h1>
+        <img src="images/coffeebean.png" width="16" height="16" alt="Coffee Bean" />
+        Customer Feedback
+      </h1>
+      <article id="art2">
+        <div class="topright">
+          <img src="images/border-topright.png" width="30" height="30" alt="" />
+        </div>
+        <h2>Feedback</h2>
+        <p>
+          Here in Cafe Aroma we strive for excellence in every possible way we can.<br />
+          However, <span class="pun">that's just the icing on the cake</span>.<br />
+          To do so, we <span class="pun">knead you to send us your feedback</span>.<br />
+          We'll listen to your feedbacks and suggestions and improve!
+        </p>
+        <form id="feedback">
+	  <p id="formexpl">Fields marked with <span class="req">*</span> are required.</p>
+	  <fieldset id="contactinfo">
+	    <legend>Contact Information</legend>
+	    <label>
+	      First Name <span class="req">*</span>
+	      <input type="text" name="fname" id="fnameinput" placeholder="First name" />
+	    </label>
+	    <label>
+	      Last Name
+	      <input type="text" name="lname" id="lnameinput" placeholder="Last name" />
+	    </label>
+	    <label>
+	      Email <span class="req">*</span>
+	      <input type="text" name="email" id="emailinput" placeholder="address@example.com" />
+	    </label>
+	    <label>
+	      Phone
+	      <input type="text" name="phone" id="phoneinput" />
+	    </label>
+	  </fieldset>
+	  <fieldset id="location">
+	    <legend>Cafe Location</legend>
+	    <label>
+	      <input type="radio" name="location" id="location" value="Brisbane" />
+	      Brisbane
+	    </label>
+	    <label>
+	      <input type="radio" name="location" id="location" value="Gold Coast" />
+	      Gold Coast
+	    </label>
+	    <label>
+	      <input type="radio" name="location" id="location" value="Sydney" />
+	      Sydney
+	    </label>
+	    <label>
+	      <input type="radio" name="location" id="location" value="Melbourne" />
+	      Melbourne
+	    </label>
+	    <label>
+	      <input type="radio" name="location" id="location" value="Perth" />
+	      Perth
+	    </label>
+	  </fieldset>
+          <fieldset id="serviceinfo">
+	    <legend>Service Information</legend>
+	    <label for="desserts">
+	      <input type="checkbox" id="service" value="Desserts" name="service" />
+	      Desserts
+	    </label>
+	    <label for="coffees">
+	      <input type="checkbox" id="service" value="Coffees" name="service" />
+	      Coffees
+	    </label>
+	    <label for="cafe">
+	      <input type="checkbox" id="service" value="Cafe" name="service" />
+	      Cafe
+	    </label>
+	    <label for="services">
+	      <input type="checkbox" id="service" value="Services" name="service" />
+	      Services
+	    </label>
+	    <label for="others">
+	      <input type="checkbox" id="service" value="Others" name="service" />
+	      Others (please specify below)
+            </label>
+	  </fieldset>
+	  <fieldset id="additionalinfo">
+	    <legend>Additional Information</legend>
+	    <label for="notes">
+	      Tell us more!
+	      <textarea id="notes" name="notes" rows="4" cols="60"></textarea>
+	    </label>
+	  </fieldset>
+	  <fieldset id="rating">
+            <legend>Rate Us!</legend>
+            <select id="customerrating" name="rating">
+	      <option value="blank">-</option>
+              <option value="poor">Poor</option>
+              <option value="bad">Bad</option>
+              <option value="average">Average</option>
+              <option value="good">Good</option>
+              <option value="excellent">Excellent</option>
+            </select>
+          </fieldset>
+	  <fieldset id="submitbutton">
+	    <input type="submit" id="submit" value="Submit Request" onclick="submitForm()" />
+	  </fieldset>
+	</form>
+        <div class="botleft">
+          <img src="images/border-botleft.png" width="30" height="30" alt="" />
+        </div>
+      </article>
+      <footer id="footer2">
+        <p>Cafe Aroma <img src="images/coffeebean.png" width="12" height="12" alt="&#8226;" /> Feedback <img src="images/coffeebean.png" width="12" height="12" alt="&#8226;" /> 15 May, 2015</p>
+      </footer>
+    </div>
+    <div id="pagefooter">
+      <figure id="facebook">
+	<a href="http://www.facebook.com/Official_Cafe_Aroma">
+	  <img src="images/facebook.png" width="32" height="32" alt="Cafe Aroma Facebook" />
+	</a>
+      </figure>
+      <figure id="twitter">
+	<a href="http://www.twitter.com/Official_Cafe_Aroma">
+	  <img src="images/twitter.png" width="32" height="32" alt="Cafe Aroma Twitter" />
+	</a>
+      </figure>
+      <p>Copyright &copy; 2015 Cafe Aroma Australia. All Rights Reserved.</p>
+    </div>
+  </body>
+</html>

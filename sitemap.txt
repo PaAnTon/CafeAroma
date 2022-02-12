@@ -1,0 +1,5 @@
+http://www.example.com/home.html
+http://www.example.com/about.html
+http://www.example.com/location.html
+http://www.example.com/products.html
+http://www.example.com/feedback.html
